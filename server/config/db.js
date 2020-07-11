@@ -1,7 +1,6 @@
 //27017
-
 const mongoose = require('mongoose');
-const connection = mongoose.connect('mongodb://localhost:27017/reactpoc',
+const connection = mongoose.connect('mongodb+srv://jayesh:Jinucool@12345@cluster0.wdbco.mongodb.net/<dbname>?retryWrites=true&w=majority',
  { useNewUrlParser: true });
 
 mongoose.connection.on('error',err=>{
