@@ -1,6 +1,6 @@
 const global = {
-    apiAddress : 'http://localhost:5000/api',
-    imageaddress:'http://localhost:5000/'
+    apiAddress : 'http://15.207.14.197:5000/api',
+    imageaddress:'http://15.207.14.197:5000/'
 }
 
 export default global;
